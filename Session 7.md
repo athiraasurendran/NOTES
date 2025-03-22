@@ -2,6 +2,7 @@
 
 ## IF
 Used to execute a block of code only if a condition is true.
+
 x = 10
 if x > 5:
     print("x is greater than 5")
@@ -46,7 +47,7 @@ for fruit in fruits:
 
 Using range() in a for loop
 
-for i in range(5):  # Iterates from 0 to 4
+for i in range(5):  
     print(i)
 
 ## While Loop
@@ -83,7 +84,7 @@ Output: 0, 1, 2 (stops at 3)
 The keyword module provides a list of all Python keywords.
 
 import keyword
-print(keyword.kwlist)  # Prints a list of Python keywords
+print(keyword.kwlist)  
 
 # Print formatting
 
